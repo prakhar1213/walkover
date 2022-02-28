@@ -19,5 +19,5 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: sudo rm -R /var/www/html
-    - run: cp -R /var/www/myApp/actions-runner/_work/walkover/walkover/build/. /var/www/html/
+    - run: sudo cp -R /var/www/myApp/actions-runner/_work/walkover/walkover/build/. /var/www/html/
     - run: sudo service nginx restart
