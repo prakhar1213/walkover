@@ -46,7 +46,7 @@ const Login = () => {
       <Card elevation={5} sx={{ width: "50%", borderRadius: "1rem" }}>
         <CardContent>
           <Stack spacing={3}>
-            <Typography variant="h3">Welcome</Typography>
+            <Typography variant="h3">Welcome!</Typography>
             <form onSubmit={handleSubmit(onSubmit)}>
               <Stack spacing={2}>
                 <TextField
